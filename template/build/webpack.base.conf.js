@@ -28,7 +28,8 @@ module.exports = {
       {{/if_eq}}
       'src': path.resolve(__dirname, '../src'),
       'assets': path.resolve(__dirname, '../src/assets'),
-      'components': path.resolve(__dirname, '../src/components')
+      'components': path.resolve(__dirname, '../src/components'),
+      'vue-human': path.resolve(__dirname, '../node_modules/vue-human/src')
     }
   },
   resolveLoader: {
@@ -67,6 +68,11 @@ module.exports = {
           path.join(projectRoot, 'src')
         ],
         exclude: /node_modules/
+      },
+      {
+        test: /vue-human[-\w]*\/.*?js$/,
+        loader: 'babel',
+        exclude: /vue-human[-\w]*\/node_modules/
       },
       {
         test: /\.json$/,
