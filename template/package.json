@@ -8,7 +8,9 @@
     "lint": "eslint --ext .js,.vue src",
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
-    "config": "cp src/env/config.js src/env/config.local.js"
+    "config": "cp src/env/config.js src/env/config.local.js",
+    "git": "git init && git add . && git commit -m 'init project'",
+    "init": "yarn run config && yarn run git"
   },
   "dependencies": {
     "axios": "^0.15.3",
