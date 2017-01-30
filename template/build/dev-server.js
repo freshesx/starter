@@ -70,8 +70,9 @@ module.exports = app.listen(port, function (err) {
     return
   }
 
+  // Default setting: don't open it
   // when env is testing, don't need open it
-  if (process.env.NODE_ENV !== 'testing') {
-    opn(uri)
-  }
+  // if (process.env.NODE_ENV !== 'testing') {
+  //   opn(uri)
+  // }
 })
