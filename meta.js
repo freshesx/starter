@@ -26,10 +26,12 @@ module.exports = {
     },
     "unit": {
       "type": "confirm",
+      "default": false,
       "message": "Setup unit tests with Karma + Mocha?"
     },
     "e2e": {
       "type": "confirm",
+      "default": false,
       "message": "Setup e2e tests with Nightwatch?"
     }
   },
