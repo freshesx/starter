@@ -1,3 +1,13 @@
+# vue webpack boilerplate with vue-human
+
+- 新增 vue-router，并配置文件夹
+- 新增 axios，并配置文件夹
+- 新增 vuex，并配置文件夹
+- 新增 vue-human@^2.0.0-rc-3，并配置文件夹
+- 新增 vue-human 的 babel 编译至 webpack
+- 新增 vue-human-env@^2.0.1，并配置文件夹
+- 新增 viewport 配置至 index.html
+
 # vue-webpack-boilerplate
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
