@@ -101,5 +101,5 @@ module.exports = {
       })
     ]
   },
-  sassResources: path.resolve(__dirname, '../src/human/vars.scss')
+  sassResources: path.resolve(__dirname, '../src/human/config.scss')
 }
