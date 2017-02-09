@@ -6,7 +6,7 @@
 - Add moment
 - Add sass-loader, node-sass
 - Add sass-resource-loader
-- Add vue-human@^2.0.0-rc-4
+- Add vue-human@^2.0.0-rc.5
 - Add vue-human-env@^2.0.1
 - Set viewport in index.html
 
