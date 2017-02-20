@@ -41,5 +41,5 @@ module.exports = {
     "build/webpack.test.conf.js": "unit",
     "test/e2e/**/*": "e2e"
   },
-  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  yarn install\n yarn run init\n  yarn run dev"
+  "completeMessage": "To get started:\n\n {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}yarn install\n yarn run init\n  yarn run dev"
 };
