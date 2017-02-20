@@ -20,23 +20,4 @@ const router = new VueRouter({
   ]
 })
 
-// When you need set auth
-// router.beforeEach((to, from, next) => {
-//   const token = lodash.get(store, 'state.user.token', {})
-//
-//   to.matched.some(record => record.meta.auth) && lodash.size(token) <= 0
-//     ? next({ name: 'sign-in', query: { redirect: to.fullPath } })
-//     : next()
-// })
-
-// When you need save scroll
-// router.beforeEach((to, from, next) => {
-//   saveScroll(from)
-//   next()
-// })
-//
-// router.afterEach((to, from, next) => {
-//   setScroll(to)
-// })
-
 export default router
