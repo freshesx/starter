@@ -1,5 +1,6 @@
 # vue webpack boilerplate with vue-human
 
+- Using webpack2
 - Add vue-router
 - Add axios
 - Add vuex
