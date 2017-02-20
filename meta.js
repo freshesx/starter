@@ -38,6 +38,7 @@ module.exports = {
   "filters": {
     "config/test.env.js": "unit || e2e",
     "test/unit/**/*": "unit",
+    "build/webpack.test.conf.js": "unit",
     "test/e2e/**/*": "e2e"
   },
   "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  yarn install\n yarn run init\n  yarn run dev"
