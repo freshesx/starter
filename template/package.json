@@ -16,7 +16,7 @@
     "axios": "^0.15.3",
     "moment": "^2.17.1",
     "vue": "^2.1.10",
-    "vue-human": "^2.0.0-rc.5",
+    "vue-human": "^2.0.0-rc.6",
     "vue-human-env": "^2.0.1",
     "vue-router": "^2.2.0",
     "vuex": "^2.1.2",
