@@ -19,7 +19,8 @@
     "vue-human": "^2.0.0-rc.5",
     "vue-human-env": "^2.0.1",
     "vue-router": "^2.2.0",
-    "vuex": "^2.1.2"
+    "vuex": "^2.1.2",
+    "sass-resources-loader": "^1.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
