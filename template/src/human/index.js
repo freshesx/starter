@@ -1,9 +1,10 @@
 import Vue from 'vue'
-import VueHuman from 'vue-human'
-import components from 'vue-human/suits/total'
+import Human from 'vue-human'
+import totalSuits from 'vue-human/suits/total'
 import './app.scss'
 
-Vue.use(VueHuman)
-VueHuman.add(components)
+// Use Human
+Vue.use(Human)
 
-export default VueHuman
+// Use Human Suits
+Vue.use(totalSuits)
