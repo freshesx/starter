@@ -92,5 +92,14 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  }
+  },
+  "browserlist": [
+    "> 1%",
+    "last 2 versions",
+    "iOS >= 7",
+    "Android >= 4",
+    "Samsung >= 4",
+    "UCAndroid >= 11",
+    "not ie <= 8"
+  ]
 }
