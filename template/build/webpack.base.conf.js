@@ -20,13 +20,8 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
-    modules: [
-      resolve('node_modules')
-    ],
     alias: {
-      'src': resolve('src'),
-      'assets': resolve('src/assets'),
-      'components': resolve('src/components')
+      '@': resolve('src'),
     }
   },
   module: {
