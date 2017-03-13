@@ -8,7 +8,7 @@
 - Add sass-loader, node-sass
 - Add sass-resource-loader
 - Add vue-human@^2.0.0
-- Add vue-human-env@^2.0.1
+- Add vue-human-env@^2.0.2
 - Set viewport in index.html
 
 ## Usage
