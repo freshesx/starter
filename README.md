@@ -1,28 +1,47 @@
-# vue webpack boilerplate with vue-human
+<p><img width="320" src="https://raw.githubusercontent.com/HumanUI/vue-human/master/docs/vue-human.jpg"></p>
 
-- Using webpack2
-- Add vue-router
-- Add axios
-- Add vuex
-- Add moment
-- Add sass-loader, node-sass
-- Add sass-resource-loader
-- Add vue-human@^2.0.0
-- Add vue-human-env@^2.0.2
-- Set viewport in index.html
+`Vue webpack boilerplate with vue-human`
 
-## Usage
+The boilerplate is based on `vuejs-templates/webpack` ([github](https://github.com/vuejs-templates/webpack)). But we add vue-human.
+
+So, the project can help you to build your vue-human project quickly.
+
+# How to use
 
 ``` bash
-$ npm install -g yarn
-$ npm install -g vue-cli
-$ vue init VitualReaty/webpack my-project
+# Install your yarn and vue-cli in your computer
+$ npm install -g yarn vue-cli
+
+# Download vue-human webpack boilerplate project
+$ vue init HumanUI/webpack my-project
+
+# Finish download, you will see the final text
 $ cd my-project
+
+# Install your package
 $ yarn install
+
+# Important, It will install your package, copy your config file,
+# and create git repository
 $ yarn run init
+
+# Run your project in localhost:8080
 $ yarn run dev
 ```
 
-## Fork
+# What do we add
 
-[vuejs-templates/webpack](https://github.com/vuejs-templates/webpack)
+- vue-router
+- vuex
+- axios
+- moment
+- sass-loader
+- node-sass
+- sass-resource-loader
+- vue-human
+- vue-human-env
+- vue-human-icons
+
+# Documentation
+
+You can see vuejs-templates/webpack's [documentation](http://vuejs-templates.github.io/webpack/)
