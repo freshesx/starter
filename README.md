@@ -20,12 +20,9 @@ $ vue init HumanUI/webpack my-project
 # Finish download, you will see the final text
 $ cd my-project
 
-# Install your package
-$ yarn install
-
 # Important, It will install your package, copy your config file,
 # and create git repository
-$ yarn run init
+$ yarn run first
 
 # Run your project in localhost:8080
 $ yarn run dev
