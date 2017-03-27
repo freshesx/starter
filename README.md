@@ -1,5 +1,7 @@
 <p><img width="320" src="https://raw.githubusercontent.com/HumanUI/vue-human/master/docs/vue-human.jpg"></p>
 
+# Boilerplate for vue-human
+
 `Vue webpack boilerplate with vue-human`
 
 The boilerplate is based on `vuejs-templates/webpack` ([github](https://github.com/vuejs-templates/webpack)). But we add vue-human.
