@@ -1,18 +1,19 @@
 import Vue from 'vue'
-import moment from 'moment'
 
 const TOKEN_NAME = `${Vue.env.get('STORAGE_PREFIX')}TOKEN`
 
 export default {
   get () {
     const token = window.JSON.parse(window.localStorage.getItem(TOKEN_NAME))
-    const expires = moment(token ? token.expires : undefined)
-    const now = moment()
+    const expires = new Date(token ? token.expires : undefined)
+    const now = new Date()
 
     return expires > now && token ? token : this.remove()
   },
   set (token) {
-    const expires = moment().add(31536000, 's').format()
+    const now = new Date()
+    const expires = new Date(now.getTime() + 1000 * 60 * 60 * 24 * 365)
+
     window.localStorage.setItem(TOKEN_NAME, window.JSON.stringify({ ...token, expires }))
     return this.get()
   },

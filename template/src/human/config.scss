@@ -1,3 +1,4 @@
-// config.scss
-// Must use sass-resource-loader@1.0.2 for webpack 1.x
-// $reboot-size-root: 14px;  // For example
+// 该文件由 sass-resource-loader 为每个 sass 文件加载，
+// 不需要在别的地方被引用
+//
+// $reboot-size-root: 14px;  // 改变字体和基础 REM 的尺寸
