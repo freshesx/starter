@@ -29,7 +29,7 @@
 
 <script>
   import chatbubbleWorking from 'vue-human-icons/js/iconic/chatbubble-working'
-  import message from 'vue-human/util/message'
+  import Message from 'vue-human/util/Message'
 
   export default {
     data () {
@@ -42,7 +42,7 @@
         button.loading = true
         setTimeout(() => {
           button.loading = false
-          message({ show: true, description: 'Hi, bubble!' })
+          Message.create({ show: true, description: 'Hi, bubble!' }).show()
         }, 800)
       }
     }
