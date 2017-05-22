@@ -1,4 +1,3 @@
-/* !!Load router into the last */
 import Vue from 'vue'
 import env from './env'
 import store from './store'
