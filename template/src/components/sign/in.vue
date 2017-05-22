@@ -36,7 +36,9 @@
     </mn-section>
 
     <mn-section>
-      <mn-btn theme="primary" margin ref="submit">Sign in</mn-btn>
+      <mn-section-btn>
+        <mn-btn theme="primary" ref="submit" margin>Sign in</mn-btn>
+      </mn-section-btn>
     </mn-section>
   </mn-form>
 </template>
@@ -46,8 +48,13 @@
     required,
     minLength,
     maxLength } from 'vuelidate/lib/validators'
+  import input from 'vue-human/suites/input'
+  import Message from 'vue-human/utils/Message'
 
   export default {
+    components: {
+      ...input.map()
+    },
     validations: {
       models: {
         username: {
@@ -62,7 +69,6 @@
         }
       }
     },
-
     data () {
       return {
         models: {
@@ -71,18 +77,16 @@
         }
       }
     },
-
     methods: {
       success ($event, form) {
         form.loading = true
         this.$refs.submit.loading = true
 
-        this.$store.dispatch('user.signIn', this.models).then(response => {
+        setTimeout(() => {
           form.loading = false
           this.$refs.submit.loading = false
-        }).catch(error => {
-          console.log('in.vue', error)
-        })
+          Message.create({ message: '数据验证成功' }).show()
+        }, 2000)
       }
     }
   }
