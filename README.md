@@ -33,7 +33,6 @@ $ yarn run dev
 - vue-router
 - vuex
 - axios
-- moment
 - sass-loader
 - node-sass
 - sass-resource-loader
