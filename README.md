@@ -1,34 +1,49 @@
 <p><img width="320" src="https://raw.githubusercontent.com/HumanUI/vue-human/master/docs/vue-human.jpg"></p>
 
-# Boilerplate for vue-human
+### 为 vue-human 而量身配置的 webpack 模板，用于快速新建 human 项目
 
-`Vue webpack boilerplate with vue-human`
+该模板基于 `vuejs-templates/webpack` ([github](https://github.com/vuejs-templates/webpack)) 项目进行扩展，目前有部分相似，又有部分不同。
 
-The boilerplate is based on `vuejs-templates/webpack` ([github](https://github.com/vuejs-templates/webpack)). But we add vue-human.
+vue-human 是一个基于 vue 的组件库，同 Element, iView 的作用相同，但是设计理念和使用方式不同。
 
-So, the project can help you to build your vue-human project quickly.
-
-# How to use
+# 如何快速生成 Human 项目
 
 ``` bash
-# Install your yarn and vue-cli in your computer
-$ npm install -g yarn vue-cli
+# 安装 nrm 用于管理 npm 源的版本，国外用户可以忽略
+$ npm install -g nrm
+$ nrm use taobao
 
-# Download vue-human webpack boilerplate project
+# 修改你本地一些库的镜像，国外用户可以忽略
+$ npm config edit
+
+# 然后添加如下内容
+sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
+phantomjs_cdnurl=https://npm.taobao.org/mirrors/phantomjs/
+electron_mirror=https://npm.taobao.org/mirrors/electron/
+
+# 添加后保存退出，具体查看该链接 [镜像](./docs/mirror.md)
+
+# 安装 yarn，如果你已经安装完成，可以跳过。
+$ npm install -g yarn
+
+# 安装 vue-cli，如果你已经安装完成，可以跳过。
+$ npm install -g vue-cli
+
+# 下载 HumanUI/webpack 模板
 $ vue init HumanUI/webpack my-project
 
-# Finish download, you will see the final text
+# 如果安装完成，你将会看到一些提示文字
 $ cd my-project
 
-# Important, It will install your package, copy your config file,
-# and create git repository
+# 进入文件夹后，先初始化，通过以下命令初始化，这步将创建你本地的配置文件，
+# 初始化 git 仓库，以及安装 package 依赖包
 $ yarn run first
 
-# Run your project in localhost:8080
+# 通过游览器内打开 localhost:8080 以游览你的项目
 $ yarn run dev
 ```
 
-# What do we add
+# 我们增加了哪些包
 
 - vue-router
 - vuex
@@ -39,7 +54,3 @@ $ yarn run dev
 - vue-human
 - vue-human-env
 - vue-human-icons
-
-# Documentation
-
-You can see vuejs-templates/webpack's [documentation](http://vuejs-templates.github.io/webpack/)
