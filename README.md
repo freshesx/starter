@@ -1,12 +1,16 @@
 <p><img width="320" src="https://raw.githubusercontent.com/HumanUI/vue-human/master/docs/vue-human.jpg"></p>
 
-### 为 vue-human 而量身配置的 webpack 模板，用于快速新建 human 项目
+<div>
+  <span title="vue-cli 模板">
+    <img src="https://img.shields.io/badge/vue--cli%20%E6%A8%A1%E6%9D%BF-v2.5.6-orange.svg">
+  </span>
+</div>
 
-该模板基于 `vuejs-templates/webpack` ([github](https://github.com/vuejs-templates/webpack)) 项目进行扩展，目前有部分相似，又有部分不同。
-
-vue-human 是一个基于 vue 的组件库，同 Element, iView 的作用相同，但是设计理念和使用方式不同。
+为 vue-human 而量身配置的 webpack 模板，用于快速新建 human 项目。该模板基于 `vuejs-templates/webpack` ([github](https://github.com/vuejs-templates/webpack)) 项目进行扩展，目前有部分相似，又有部分不同。vue-human 是一个基于 vue 的组件库，同 Element, iView 的作用相同，但是设计理念和使用方式不同。
 
 # 如何快速生成 Human 项目
+
+## 准备工作（如果已经完成可以跳过）
 
 ``` bash
 # 安装 nrm 用于管理 npm 源的版本，国外用户可以忽略
@@ -28,7 +32,11 @@ $ npm install -g yarn
 
 # 安装 vue-cli，如果你已经安装完成，可以跳过。
 $ npm install -g vue-cli
+```
 
+## 核心使用方法
+
+``` bash
 # 下载 HumanUI/webpack 模板
 $ vue init HumanUI/webpack my-project
 
@@ -54,3 +62,7 @@ $ yarn run dev
 - vue-human
 - vue-human-env
 - vue-human-icons
+
+# 相关资料
+
+[常见 install 失败的解决方法：设置镜像](./docs/mirror.md)
