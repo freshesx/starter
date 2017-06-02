@@ -23,23 +23,7 @@ module.exports = {
     "author": {
       "type": "string",
       "message": "Author"
-    },
-    "unit": {
-      "type": "confirm",
-      "default": false,
-      "message": "Setup unit tests with Karma + Mocha?"
-    },
-    "e2e": {
-      "type": "confirm",
-      "default": false,
-      "message": "Setup e2e tests with Nightwatch?"
     }
-  },
-  "filters": {
-    "config/test.env.js": "unit || e2e",
-    "test/unit/**/*": "unit",
-    "build/webpack.test.conf.js": "unit",
-    "test/e2e/**/*": "e2e"
   },
   "completeMessage": "To get started:\n\n {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}yarn run first\n  yarn run dev"
 };
