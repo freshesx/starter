@@ -12,18 +12,18 @@ module.exports = {
     "name": {
       "type": "string",
       "required": true,
-      "message": "Project name"
+      "message": "Your Project name"
     },
     "description": {
       "type": "string",
       "required": false,
       "message": "Project description",
-      "default": "A Vue.js project"
+      "default": "Some project with Vue2 and HumanUI"
     },
     "author": {
       "type": "string",
       "message": "Author"
     }
   },
-  "completeMessage": "To get started:\n\n {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}yarn run first\n  yarn run dev"
+  "completeMessage": "{{#inPlace}}Congratulations, To get started:\n\n1. yarn run first\n2. yarn run dev{{else}}Congratulations, To get started:\n\n1. cd {{destDirName}}\n2. yarn run first\n3. yarn run dev{{/inPlace}}"
 };
