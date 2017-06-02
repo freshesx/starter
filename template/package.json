@@ -50,7 +50,6 @@
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.28.0",
     "http-proxy-middleware": "^0.17.4",
-    {{#unit}}
     "cross-env": "^4.0.0",
     "karma": "^1.4.1",
     "karma-coverage": "^1.1.1",
@@ -69,7 +68,6 @@
     "inject-loader": "^3.0.0",
     "babel-plugin-istanbul": "^4.1.1",
     "phantomjs-prebuilt": "^2.1.14",
-    {{/unit}}
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
     "opn": "^4.0.2",
