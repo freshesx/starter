@@ -1,8 +1,7 @@
 {
-  "name": "boilerplate-vue-human",
-  "version": "2.0.0",
-  "license": "MIT",
-  "description": "A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.",
+  "name": "freshes-starter",
+  "version": "1.0.0-beta.1",
+  "description": "Freshes Starter",
   "devDependencies": {
     "vue-cli": "^2.8.1"
   }
