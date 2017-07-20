@@ -25,5 +25,5 @@ module.exports = {
       "message": "Author"
     }
   },
-  "completeMessage": "{{#inPlace}}Congratulations, To get started:\n\n1. yarn run first\n2. yarn run dev{{else}}Congratulations, To get started:\n\n1. cd {{destDirName}}\n2. yarn run first\n3. yarn run dev{{/inPlace}}"
+  "completeMessage": "{{#inPlace}}Congratulations, To get started:\n\n1. yarn run first\n2. yarn start{{else}}Congratulations, To get started:\n\n1. cd {{destDirName}}\n2. yarn run first\n3. yarn run dev{{/inPlace}}"
 };
