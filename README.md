@@ -1,12 +1,10 @@
 <p><img width="320" src="https://raw.githubusercontent.com/HumanUI/vue-human/master/docs/vue-human.jpg"></p>
 
 <div>
-  <span title="vue-cli 模板">
-    <img src="https://img.shields.io/badge/vue--cli%20%E6%A8%A1%E6%9D%BF-v2.5.6-orange.svg">
+  <span title="version">
+    <img src="https://img.shields.io/badge/vue--cli%20%E6%A8%A1%E6%9D%BF-v1.0.0--beta.1-orange.svg">
   </span>
 </div>
-
-为 vue-human 而量身配置的 webpack 模板，用于快速新建 human 项目。该模板基于 `vuejs-templates/webpack` ([github](https://github.com/vuejs-templates/webpack)) 项目进行扩展，目前有部分相似，又有部分不同。vue-human 是一个基于 vue 的组件库，同 Element, iView 的作用相同，但是设计理念和使用方式不同。
 
 # 如何快速生成 Human 项目
 
@@ -38,7 +36,7 @@ $ npm install -g vue-cli
 
 ``` bash
 # 下载 HumanUI/webpack 模板
-$ vue init HumanUI/webpack my-project
+$ vue init HumanUI/starter my-project
 
 # 如果安装完成，你将会看到一些提示文字
 $ cd my-project
@@ -48,7 +46,7 @@ $ cd my-project
 $ yarn run first
 
 # 通过游览器内打开 localhost:8080 以游览你的项目
-$ yarn run dev
+$ yarn start
 ```
 
 # 我们增加了哪些包
