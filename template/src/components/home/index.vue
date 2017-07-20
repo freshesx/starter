@@ -20,8 +20,10 @@
           </mn-card-item>
         </mn-card>
 
-        <mn-btn :icon="icons.chatbubbleWorking" theme="primary" @click="bubble">Start</mn-btn>
-        <mn-btn theme="secondary-link" @click="$router.push({ name: 'signIn' })">Sign in</mn-btn>
+        <mn-section-btn>
+          <mn-btn :icon="icons.chatbubbleWorking" theme="primary" @click="bubble">Start</mn-btn>
+          <mn-btn theme="secondary-link" @click="$router.push({ name: 'signIn' })">Sign in</mn-btn>
+        </mn-section-btn>
       </mn-section>
     </mn-container>
   </mn-scroller>
