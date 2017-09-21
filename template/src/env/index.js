@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueHumanEnv from 'vue-human-env'
-import config from './config.js'
-import configLocal from './config.local.js'
+import defaultConfig from './config.js'
+const envConfig = require(`./config.${process.BROWSER_ENV}.js`).default
 
-Vue.use(VueHumanEnv, config, configLocal)
+Vue.use(VueHumanEnv, defaultConfig, envConfig)
 
 export default VueHumanEnv
