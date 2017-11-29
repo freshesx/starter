@@ -15,12 +15,7 @@
     "first": "yarn install && yarn run config && yarn run git"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "vue": "^2.4.4",
-    "vue-human": "^2.6.11",
-    "vue-human-env": "^2.0.2",
-    "vue-router": "^2.7.0",
-    "vuex": "^2.4.0"
+    "vue-human": "^2.8.2"
   },
   "devDependencies": {
     "@freshes/house": "^1.2.0"
