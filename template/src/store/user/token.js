@@ -1,6 +1,4 @@
-import Vue from 'vue'
-
-const TOKEN_NAME = `${Vue.env.get('STORAGE_PREFIX')}TOKEN`
+const TOKEN_NAME = process.env.STORAGE_PREFIX + 'TOKEN'
 
 export default {
   get () {
