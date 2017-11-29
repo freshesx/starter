@@ -1,4 +1,4 @@
-const ProductionRunner = require('../../src/Runners/ProductionRunner')
+const ProductionRunner = require('@freshes/house/src/Runners/ProductionRunner')
 
 new ProductionRunner()
   .setOptions(require('./configs/options'))
