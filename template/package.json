@@ -5,14 +5,10 @@
   "author": "{{ author }}",
   "private": true,
   "scripts": {
-    "start": "node ./scripts/dev.js",
-    "dev": "node ./scripts/dev.js",
-    "prod": "node ./scripts/prod.js",
-    "build": "node ./scripts/prod.js",
-    "lint": "eslint --ext .js,.vue src",
-    "config": "cp src/env/config.js src/env/config.local.js",
-    "git": "git init && git add . && git commit -m 'init project'",
-    "first": "yarn install && yarn run config && yarn run git"
+    "start": "node ./scripts/development.js",
+    "dev": "node ./scripts/development.js",
+    "build": "node ./scripts/production.js",
+    "git": "git init && git add . && git commit -m 'init project'"
   },
   "dependencies": {
     "vue-human": "^2.8.2"
