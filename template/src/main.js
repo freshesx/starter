@@ -10,6 +10,6 @@ new Vue({
   el: '#app',
   store,
   router,
-  human
+  human,
   render: h => h(app)
 })
