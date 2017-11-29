@@ -1,6 +1,6 @@
 {
-  "name": "freshes-starter",
-  "version": "1.0.0-beta.1",
+  "name": "@freshes/starter",
+  "version": "2.0.0",
   "description": "Freshes Starter",
   "devDependencies": {
     "vue-cli": "^2.8.1"
