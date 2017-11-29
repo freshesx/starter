@@ -8,7 +8,8 @@
     "start": "node ./scripts/development.js",
     "dev": "node ./scripts/development.js",
     "build": "node ./scripts/production.js",
-    "git": "git init && git add . && git commit -m 'init project'"
+    "git": "git init && git add . && git commit -m 'init project'",
+    "first": "yarn install && yarn run git"
   },
   "dependencies": {
     "vue-human": "^2.8.2"
