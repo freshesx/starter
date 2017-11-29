@@ -1,31 +1,27 @@
 # {{ name }}
 
-> {{ description }}
+{{ description }}
 
-## Build Setup
+## Development
 
 ``` bash
 # install dependencies
-yarn install
-
-# copy local config (!important)
-# cp src/env/config.js src/env/config.local.js
-yarn run config
+yarn
 
 # serve with hot reload at localhost:8080
-yarn run dev
+yarn start
+```
 
+## Production
+
+``` bash
 # build for production with minification
 yarn run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Read more
+
+[@freshes/house](https://github.com/freshesx/house)
